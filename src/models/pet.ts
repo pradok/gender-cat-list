@@ -1,9 +1,8 @@
-enum PetType {
-  cat = 'Cat',
-  dog = 'Dog',
-  fish = 'Fish'
-}
+export type PetType = 'Cat' | 'Dog' | 'Fish';
+
 export interface Pet {
   name: string;
   type: PetType
 }
+
+type GroupPetsBy = Record<string, string[]>
