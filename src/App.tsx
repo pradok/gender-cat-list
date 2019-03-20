@@ -8,6 +8,7 @@ const AppStyled = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 `;
 AppStyled.displayName = 'AppStyled';
 
